@@ -1,4 +1,4 @@
 i
 =
 
-install all the shit that I need
+`sudo ./install.sh`
