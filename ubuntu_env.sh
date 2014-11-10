@@ -1,20 +1,16 @@
 echo -e '\e[1m⇢  Installing all the \e[34mLinux\e[39m shit!\e[0m'
 
 # primary shit
-apt-get install curl git mercurial make binutils bison gcc build-essential
-apt-get install -y ack-grep
+apt-get install -y ack-grep tmux curl git mercurial make binutils bison gcc build-essential
 
 # fucking browser
 apt-get install -y chromium-browser
 
 # text editors
-apt-get install -y sublime-text
-apt-get install -y vim
-apt-get install -y tmux
+apt-get install -y vim sublime-text
 
 # python
-apt-get install -y python-dev
-apt-get install -y python-setuptools
+apt-get install -y python-dev python-setuptools
 
 # ruby
 apt-get install rake rubygems irb rdoc
