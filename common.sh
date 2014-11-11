@@ -1,7 +1,7 @@
 echo -e '\e[1m⇢  Installing all the \e[32mCommon\e[39m shit!\e[0m'
 
 # gvm && go
-bash < <(curl -sSL https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
+curl -sSL https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | bash
 source $HOME/.gvm/scripts/gvm
 gvm install go1.2
 gvm use go1.2 --default
@@ -16,7 +16,7 @@ gem install rails
 gem install sinatra
 
 # npm
-bash < < (curl http://npmjs.org/install.sh | sh)
+curl -sSl http://npmjs.org/install.sh | sh
 
 # npm shit
 npm install -g n
