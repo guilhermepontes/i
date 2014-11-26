@@ -1,4 +1,4 @@
-echo -e '\e[1m⇢  Installing all the \e[34mLinux\e[39m shit!\e[0m'
+echo -e '⇢  Installing all the Linux shit!'
 
 # primary shit
 apt-get install -y ack-grep tmux curl git mercurial make binutils bison gcc build-essential

@@ -1,4 +1,4 @@
-echo -e '\e[1m⇢  Installing all the \e[32mCommon\e[39m shit!\e[0m'
+echo -e '⇢  Installing all the [common] shit!'
 
 # gvm && go
 curl -sSL https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer | bash
