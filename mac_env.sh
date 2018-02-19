@@ -4,7 +4,16 @@
 osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to not dark mode'
 
 # enable key repetition
-defaults write -g ApplePressAndHoldEnabled -bool false
+defaults write -g ApplePressAndHoldEnabled -bool false && 
+
+# hides desktop items/folders
+defaults write com.apple.finder CreateDesktop -bool false
+
+# show file extensions in finder
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# restart finder
+killall Finder
 
 # install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
