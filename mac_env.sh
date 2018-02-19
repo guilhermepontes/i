@@ -3,6 +3,9 @@
 # set topbar to darkmode
 osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to not dark mode'
 
+# enable key repetition
+defaults write -g ApplePressAndHoldEnabled -bool false
+
 # install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
