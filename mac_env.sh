@@ -25,11 +25,11 @@ brew tap caskroom/cask
 # brew stuff
 brew install gcc
 brew install macvim
-brew install gitx
 brew install tree
 brew install wget
 
 # brew cask stuff
+brew cask install gitx
 brew cask install spotify
 brew cask install league-of-legends
 brew cask install google-chrome
