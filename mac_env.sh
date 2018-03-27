@@ -29,7 +29,7 @@ brew install tree
 brew install wget
 
 # brew cask stuff
-brew cask install gitx
+brew cask install rowanj-gitx
 brew cask install spotify
 brew cask install league-of-legends
 brew cask install google-chrome
