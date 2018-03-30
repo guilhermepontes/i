@@ -28,6 +28,7 @@ brew install macvim
 brew install tree
 brew install wget
 brew install watchman
+brew install thefuck
 
 # brew cask stuff
 brew cask install rowanj-gitx
