@@ -12,6 +12,9 @@ defaults write com.apple.finder CreateDesktop -bool false
 # show file extensions in finder
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
+# expand save panel by default
+defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+
 # disable all .ds_store files
 defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
