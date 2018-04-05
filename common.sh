@@ -31,8 +31,8 @@ npm i -g nodemon
 npm i -g brb
 npm i -g gtop
 npm i -g react-native-cli
-npm i -g jscodeshift
-npm i -g serverless
+npm i -g delete-branches
+npm i -g checkout-branch
 
 # git
 (cd /tmp && git clone --depth 1 https://github.com/visionmedia/git-extras.git && cd git-extras && make install)
