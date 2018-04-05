@@ -35,6 +35,7 @@ brew install tree
 brew install wget
 brew install watchman
 brew install thefuck
+brew install tmux
 
 # brew cask stuff
 brew cask install rowanj-gitx
