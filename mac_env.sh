@@ -40,7 +40,6 @@ brew install tmux
 # brew cask stuff
 brew cask install rowanj-gitx
 brew cask install spotify
-brew cask install league-of-legends
 brew cask install google-chrome
 brew cask install alfred
 brew cask install docker
