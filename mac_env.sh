@@ -60,3 +60,4 @@ brew cask install vlc
 brew cask install whatsapp
 brew cask install iterm2
 brew cask install skype
+brew cask install quicklook-json
