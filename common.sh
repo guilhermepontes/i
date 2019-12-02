@@ -18,6 +18,7 @@ curl -sSl http://npmjs.org/install.sh | sh
 
 # npm shit
 npm i -g n
+npm i -g np
 npm i -g npx
 npm i -g yarn
 npm i -g spot
