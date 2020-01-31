@@ -41,6 +41,7 @@ brew install bat
 # brew cask stuff
 brew cask install rowanj-gitx
 brew cask install spotify
+brew cask install hyperterm
 brew cask install google-chrome
 brew cask install alfred
 brew cask install docker
