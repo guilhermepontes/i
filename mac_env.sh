@@ -45,7 +45,7 @@ brew cask install hyperterm
 brew cask install google-chrome
 brew cask install alfred
 brew cask install docker
-brew casm install vanilla
+brew cask install vanilla
 brew cask install visual-studio-code
 brew cask install the-unarchiver
 brew cask install bittorrent
