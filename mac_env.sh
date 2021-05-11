@@ -1,8 +1,5 @@
 # osx stuff
 
-# set topbar to darkmode
-osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to not dark mode'
-
 # enable key repetition
 defaults write -g ApplePressAndHoldEnabled -bool false
 
@@ -14,9 +11,6 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
-
-# disable all .ds_store files
-defaults write com.apple.desktopservices DSDontWriteNetworkStores true
 
 # restart finder
 killall Finder
