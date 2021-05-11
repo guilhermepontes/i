@@ -11,7 +11,6 @@ source $HOME/.gvm/scripts/gvm
 curl -sSL https://get.rvm.io | bash -s stable
 rvm install ruby --latest #stable
 gem install rails
-gem install sinatra
 
 # npm
 curl -sSl http://npmjs.org/install.sh | sh
