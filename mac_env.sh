@@ -25,6 +25,7 @@ killall Finder
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
 
+
 # install cask
 brew tap caskroom/cask
 
@@ -41,14 +42,11 @@ brew install bat
 # brew cask stuff
 brew cask install rowanj-gitx
 brew cask install spotify
-brew cask install hyperterm
 brew cask install google-chrome
-brew cask install alfred
 brew cask install docker
 brew cask install vanilla
 brew cask install visual-studio-code
 brew cask install the-unarchiver
-brew cask install bittorrent
 brew cask install electrum
 brew cask install kap
 brew cask install stremio
@@ -60,5 +58,9 @@ brew cask install muzzle
 brew cask install vlc
 brew cask install whatsapp
 brew cask install iterm2
-brew cask install skype
 brew cask install quicklook-json
+brew cask install surfshark
+brew cask install folx
+brew cask install spectacle
+brew cask install idrive
+brew cask install discord
