@@ -21,7 +21,7 @@ brew update
 
 
 # install cask
-brew tap caskroom/cask
+brew tap homebrew/cask
 
 # brew stuff
 brew install gcc
